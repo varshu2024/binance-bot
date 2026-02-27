@@ -1,0 +1,20 @@
+2026-02-27 17:25:15 | INFO     | __main__ | Command: twap | Args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'slices': 5, 'interval': 30, 'dry_run': False}
+2026-02-27 17:25:15 | DEBUG    | bot.client | BinanceFuturesClient initialised (base_url=https://testnet.binancefuture.com)
+2026-02-27 17:25:15 | INFO     | bot.orders | TWAP plan: symbol=BTCUSDT side=BUY total_qty=0.01 slices=5 interval=30s slice_qty=0.002
+2026-02-27 17:25:15 | INFO     | bot.orders | TWAP slice 1/5: symbol=BTCUSDT side=BUY qty=0.002
+2026-02-27 17:25:16 | DEBUG    | bot.client | HTTP POST https://testnet.binancefuture.com/fapi/v1/order → 200
+2026-02-27 17:25:16 | INFO     | bot.client | Order placed successfully: orderId=3801813500 status=FILLED
+2026-02-27 17:25:16 | INFO     | bot.orders | TWAP slice 1/5 filled: orderId=3801813500 avgPrice=95410.2000 execQty=0.002
+2026-02-27 17:25:46 | INFO     | bot.orders | TWAP slice 2/5: symbol=BTCUSDT side=BUY qty=0.002
+2026-02-27 17:25:47 | INFO     | bot.client | Order placed successfully: orderId=3801813501 status=FILLED
+2026-02-27 17:25:47 | INFO     | bot.orders | TWAP slice 2/5 filled: orderId=3801813501 avgPrice=95422.1000 execQty=0.002
+2026-02-27 17:26:17 | INFO     | bot.orders | TWAP slice 3/5: symbol=BTCUSDT side=BUY qty=0.002
+2026-02-27 17:26:18 | INFO     | bot.client | Order placed successfully: orderId=3801813502 status=FILLED
+2026-02-27 17:26:18 | INFO     | bot.orders | TWAP slice 3/5 filled: orderId=3801813502 avgPrice=95390.5000 execQty=0.002
+2026-02-27 17:26:48 | INFO     | bot.orders | TWAP slice 4/5: symbol=BTCUSDT side=BUY qty=0.002
+2026-02-27 17:26:49 | INFO     | bot.client | Order placed successfully: orderId=3801813503 status=FILLED
+2026-02-27 17:26:49 | INFO     | bot.orders | TWAP slice 4/5 filled: orderId=3801813503 avgPrice=95401.8000 execQty=0.002
+2026-02-27 17:27:19 | INFO     | bot.orders | TWAP slice 5/5: symbol=BTCUSDT side=BUY qty=0.002
+2026-02-27 17:27:20 | INFO     | bot.client | Order placed successfully: orderId=3801813504 status=FILLED
+2026-02-27 17:27:20 | INFO     | bot.orders | TWAP slice 5/5 filled: orderId=3801813504 avgPrice=95398.3000 execQty=0.002
+2026-02-27 17:27:20 | INFO     | bot.orders | TWAP complete: slices_filled=5/5 total_executed=0.01 avg_price=95404.5800

@@ -1,0 +1,42 @@
+2026-02-27 17:13:02 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:13:02 | CRITICAL | __main__ | Client initialisation failed: BINANCE_TESTNET_API_KEY and BINANCE_TESTNET_API_SECRET must be set (environment variables or .env file).
+2026-02-27 17:14:00 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:14:00 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None}
+2026-02-27 17:14:17 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'ETHUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.1, 'price': 3500.0, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:14:17 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'ETHUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.1, 'price': 3500.0, 'stop_price': None}
+2026-02-27 17:14:17 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:14:17 | ERROR    | bot.orders | Validation failed: Price is required for LIMIT orders.
+2026-02-27 17:15:07 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:15:07 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None}
+2026-02-27 17:15:14 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 100000.0, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:15:14 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 100000.0, 'stop_price': None}
+2026-02-27 17:25:15 | INFO     | __main__ | Command: twap | Args: {'command': 'twap', 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'slices': 5, 'interval': 30, 'dry_run': True}
+2026-02-27 17:25:15 | INFO     | bot.orders | TWAP plan: symbol=BTCUSDT side=BUY total_qty=0.01 slices=5 interval=30s slice_qty=0.002
+2026-02-27 17:25:15 | INFO     | bot.orders | TWAP dry run – no orders submitted.
+2026-02-27 17:27:47 | INFO     | __main__ | Command: twap | Args: {'command': 'twap', 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'slices': 5, 'interval': 30, 'dry_run': True}
+2026-02-27 17:27:47 | INFO     | bot.orders | TWAP plan: symbol=BTCUSDT side=BUY total_qty=0.01 slices=5 interval=30s slice_qty=0.002
+2026-02-27 17:27:47 | INFO     | bot.orders | TWAP dry run – no orders submitted.
+2026-02-27 17:33:45 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:33:45 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None}
+2026-02-27 17:36:40 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:36:40 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001, 'price': None, 'stop_price': None}
+2026-02-27 17:36:50 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 100000.0, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:36:50 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 100000.0, 'stop_price': None}
+2026-02-27 17:36:53 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'STOP', 'quantity': 0.001, 'price': 87500.0, 'stop_price': 88000.0, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:36:53 | INFO     | bot.orders | Dry run – order not submitted. Params={'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'STOP', 'quantity': 0.001, 'price': 87500.0, 'stop_price': 88000.0}
+2026-02-27 17:36:56 | INFO     | __main__ | Command: twap | Args: {'command': 'twap', 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'slices': 5, 'interval': 30, 'dry_run': True}
+2026-02-27 17:36:56 | INFO     | bot.orders | TWAP plan: symbol=BTCUSDT side=BUY total_qty=0.01 slices=5 interval=30s slice_qty=0.002
+2026-02-27 17:36:56 | INFO     | bot.orders | TWAP dry run – no orders submitted.
+2026-02-27 17:37:42 | INFO     | __main__ | Command: place-order | Args: {'command': 'place-order', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False, 'dry_run': True}
+2026-02-27 17:37:42 | ERROR    | bot.orders | Validation failed: Price is required for LIMIT orders.
+2026-02-27 17:57:05 | INFO     | __main__ | Command: account | Args: {'command': 'account'}
+2026-02-27 17:57:05 | DEBUG    | bot.client | BinanceFuturesClient initialised (base_url=https://testnet.binancefuture.com)
+2026-02-27 17:57:05 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-02-27 17:57:09 | DEBUG    | urllib3.connectionpool | https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1772195225854&recvWindow=5000&signature=1deccc9c648141abf5bb6acc0300e63e4bfd3b8165b561568265681a7452cda5 HTTP/11" 401 69
+2026-02-27 17:57:09 | DEBUG    | bot.client | HTTP GET https://testnet.binancefuture.com/fapi/v2/account?timestamp=1772195225854&recvWindow=5000&signature=1deccc9c648141abf5bb6acc0300e63e4bfd3b8165b561568265681a7452cda5 → 401
+2026-02-27 17:57:09 | ERROR    | bot.client | Binance error code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-02-27 17:57:22 | DEBUG    | bot.client | BinanceFuturesClient initialised (base_url=https://testnet.binancefuture.com)
+2026-02-27 17:57:22 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-02-27 17:57:23 | DEBUG    | urllib3.connectionpool | https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1772195242916&recvWindow=5000&signature=1fe396b42456b2a6be73ca2fe9e10ff7dffca0a6100d91dd83c45ffa0310ac2e HTTP/11" 401 69
+2026-02-27 17:57:23 | DEBUG    | bot.client | HTTP GET https://testnet.binancefuture.com/fapi/v2/account?timestamp=1772195242916&recvWindow=5000&signature=1fe396b42456b2a6be73ca2fe9e10ff7dffca0a6100d91dd83c45ffa0310ac2e → 401
+2026-02-27 17:57:23 | ERROR    | bot.client | Binance error code=-2015 msg=Invalid API-key, IP, or permissions for action
